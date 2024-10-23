@@ -1,4 +1,7 @@
 import { Injectable } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 
 @Injectable()
-export class CountriesService {}
+export class CountriesService {
+  constructor(private readonly configService: ConfigService) {}
+}
