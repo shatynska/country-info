@@ -6,8 +6,11 @@
 - [Frontend](#frontend)
 
 # Backend
+[Backend](./backend/README.md)
 
 # Frontend
+[Frontend](./frontend/README.md)
+
 
 
 
